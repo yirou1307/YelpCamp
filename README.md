@@ -9,12 +9,9 @@ This is a course project of [The Web Developer Bootcamp](https://www.udemy.com/c
 - Logged-in users are only able to edit/delete the campgrounds they created; they are not able to edit/delete campgrounds created by others;
 
 ### Techniques
-#### Frontend:
 - HTML
 - CSS
 - Bootstrap
-
-#### Backend:
 - Node.js
 - Express
 - MongoDB
