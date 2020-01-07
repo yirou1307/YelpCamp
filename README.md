@@ -10,8 +10,8 @@ This is a course project of [The Web Developer Bootcamp](https://www.udemy.com/c
 
 ### Techniques
 - HTML
-- CSS
 - Bootstrap
+- Javascript
 - Node.js
 - Express
 - MongoDB
