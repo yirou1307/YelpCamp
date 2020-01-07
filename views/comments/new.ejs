@@ -1,0 +1,22 @@
+<%- include("../partials/header") %>
+
+<div class="container">
+	
+	<div class="row" style="width: 70%; margin: auto; ">
+		<div class="container" style="padding: 30px">
+			<h2>Add A New Comment To <%= data.name %></h2>
+		</div>
+		<form action="/campgrounds/<%= data._id %>/comments" method="POST" style="padding-left: 50px">
+			<div>
+				<textarea name="content" style="width: 400px; height: 200px"></textarea>
+			</div>
+			<div style="padding: 20px">
+				<button class="btn btn-primary">Submit!</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+
+<%- include("../partials/footer") %>
